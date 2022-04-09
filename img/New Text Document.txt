@@ -1,0 +1,15 @@
+@media (min-width:1200px){
+    .desktop{
+        display: initial;
+    }
+}
+
+
+@media (min-width:768px) {
+    section.button{
+    max-width: 640px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+}
